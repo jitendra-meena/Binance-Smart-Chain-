@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLISCENSED
 pragma solidity ^0.6.0;
 
-interface BEP20 {
+interface BEP20  {
 
     function totalSupply() external view returns (uint256);
     function balanceOf(address account) external view returns (uint256);
